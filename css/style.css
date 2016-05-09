@@ -171,7 +171,6 @@ input:focus {
 	width:100%;
 	height:150px;
 	position:relative;
-<<<<<<< HEAD
 	background:#ffffff;
 	/*#E71c15*/;
 }
@@ -191,10 +190,6 @@ input:focus {
 
 .logo-square {
 	transition:all .2s;
-}
-
-//.logo-squares:hover .logo-square {
-	transform:scale(1.2,1.2);
 }
 
 .square-cyan {
@@ -259,9 +254,8 @@ input:focus {
 	height:39px;
 	top:72px;
 	left:66px;
-=======
 	background:#fff;/*#E71c15*/
->>>>>>> origin/master
+
 }
 
 .main-header-inner {
@@ -1015,7 +1009,6 @@ input:focus {
 	padding:8px 15px 0;
 }
 
-<<<<<<< HEAD
 .over-footer {
 	background:url(../images/foot.png) center repeat-x;
 	height:100px;
@@ -1029,7 +1022,7 @@ input:focus {
 	clear:both;
 	height:200px;
 }
-=======
+
 .access-container {
 	width:1200px;
 	position:relative;
@@ -1074,4 +1067,3 @@ input:focus {
 	width:1200px;
 	height:500px;
 }
->>>>>>> origin/master
