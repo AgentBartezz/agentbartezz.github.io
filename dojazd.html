@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device_display, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css"/>
+		
+		<title>Strona główna</title>
+	</head>
+	<body>
+		<header class="main-header">
+			<div class="main-header-inner">
+				<h1 class="main-header-logo">
+					<img class="main-header-logo-image" alt="Helak S.C." src="images/logo.png"/>
+				</h1>
+				<div class="main-header-part-right">
+					<div class="smth">
+					</div>
+				</div>
+			</div>
+			<div class="main-menu-container">
+				<ul class="main-menu">
+					<li class="main-menu-item"><a class="main-menu-link" href="index.html">START</a></li>
+					<li class="main-menu-item"><a class="main-menu-link" href="produkty.html">PRODUKTY</a></li>
+					<li class="main-menu-item"><a class="main-menu-link-active" href="dojazd.html">DOJAZD</a></li>
+					<li class="main-menu-item"><a class="main-menu-link" href="#">KONTAKT</a></li>
+					<li class="main-menu-item-search"><input class="search-input" placeholder="Szukaj..."/></li>
+				</ul>
+			</div>
+		</header>
+		<main id="wrapper">
+			<div class="access-container">
+				<div class="form-arrive-box">
+					<form name="road_to_target" method="POST" action="functions/road_to_target.php">
+						<label class="label-long">Wpisz adres startowy</label>
+						<input type="text" class="input-text-long" name="start_adrress"/>
+						<input type="submit" value="POKAŻ TRASĘ" class="input-submit" />
+					</form>
+				</div>
+			</div>
+			<div class="map-box">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d640.1898226668231!2d19.982117979231035!3d50.07206944871406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e2!4m0!4m3!3m2!1d50.0719989!2d19.982458599999998!5e0!3m2!1spl!2spl!4v1456996243176" width="1200" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>		
+			</div>
+		</main>
+		<footer id="main-footer">
+		 
+		</footer>
+	</body>
+</html>
