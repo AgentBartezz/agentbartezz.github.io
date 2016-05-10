@@ -118,17 +118,18 @@ input:focus {
 	float:left;
 	height:40px;
 	padding-top:6px;
-	font-family:Lovelo;
+	font-family:"Gil-Condensed";
 	font-size:20px;
 }
 
 .login-link {
 	float:left;
-	height:40px
-	display:block;
-	padding:10px 7px 10px 0;
+	height:40px;
+	padding:7px 10px 0px 10p;
 	text-decoration:none;
 	text-align:left;
+	font-size:20px;
+	font-family:"Gil-Condensed";
 }
 
 .face-link a {
