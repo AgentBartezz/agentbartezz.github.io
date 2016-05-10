@@ -109,6 +109,25 @@ input:focus {
 	cursor:pointer;
 }
 
+.right-top {
+	width:400px;
+	float:right;
+}
+
+.contact-nuber {
+	float:left;
+	height:40px;
+}
+
+.login-link {
+	float:left;
+	height:40px
+	display:block;
+	paddin:10px 7px 10px 0;
+	text-decoration:none;
+	text-align:left;
+}
+
 .face-link a {
 	display:block;
 	width:100%;
