@@ -209,13 +209,6 @@ input:focus {
 	/*#E71c15*/;
 }
 
-.company-name {
-	font-size:66px;
-	width:200px;
-	font-family:"Gil-Condensed";
-	float:right;
-}
-
 .logo-squares {
 	width:120px;
 	height:150px;
