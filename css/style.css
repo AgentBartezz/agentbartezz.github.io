@@ -417,6 +417,20 @@ input:focus {
 	overflow:hidden;	
 }
 
+.company-data {
+	font-family:Gil-Condensed;
+	font-size:20px;
+	margin-top:50px;
+	margin-left:20px;
+	color:#fff;
+}
+
+.company-name {
+	font-family:Lovelo;
+	font-size:25px;
+	color:#fff;
+}
+
 #about {
 	background:url(../images/about-left.jpg);
 	width:100%;
