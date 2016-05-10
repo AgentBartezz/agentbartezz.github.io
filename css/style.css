@@ -416,13 +416,14 @@ input:focus {
 	margin-top:10px;
 	width:100%;
 	text-align:center;
-	color:#dedede;
+	color:#fff;
+	margin-left:50px;
 }
 
 .company-name {
 	font-family:Lovelo;
 	font-size:20px;
-	color:#dedede;
+	color:#fff;
 }
 
 #about {
