@@ -871,7 +871,7 @@ input:focus {
 }
 
 .news-item:hover .over-news-item-image{
-	background:rgba(0,0,0,0.5);
+	background:rgba(0,0,0,0.6);
 }
 
 .news-item:hover .news-item-image{
@@ -894,13 +894,15 @@ input:focus {
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
-    font-size: 13px;
+    font-size: 15px;
+    font-family:"Lovelo";
 }
 
 .news-item-content-text-inner {
 	font-family:"Gil-Condensed";
 	font-size:20px;
 	font-weight:100;
+	line-height:25px;
 }
 
 .section-header {
