@@ -110,16 +110,18 @@ input:focus {
 }
 
 .right-top {
-	width:466px;
+	width:524px;
 	float:right;
 }
 
 .contact-nuber {
 	float:left;
 	height:40px;
-	padding-top:6px;
+	padding-top:7px;
 	font-family:"Lovelo";
-	font-size:16px;
+	font-size:20px;
+	width:140px;
+	text-align:center;
 	border-left:1px solid #bfbfbf;
 }
 
