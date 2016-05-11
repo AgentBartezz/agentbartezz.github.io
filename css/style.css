@@ -410,6 +410,48 @@ input:focus {
 	overflow:hidden;	
 }
 
+#main-contact {
+	width:1200px;
+	margin:30px auto 0;
+	position:relative;
+	height:600px;
+}
+
+.contact-left {
+	float:left;
+	width:600px;
+	height:100%;
+	position:relative;
+}
+
+.contact-right {
+	float:left;
+	width:600px;
+	height:100%;
+	position:relative;
+}
+
+.worker {
+	height:100px;
+	width:100%;
+	position:relative;
+	margin-bottom:30px;
+}
+
+.worker-name {
+	font-size:22px;
+	font-weight:bold;
+	color:#000;
+	font-family:Gil-Condensed;
+}
+
+.worker-detail {
+	font-size:18px;
+	font-weight:100;
+	color:#000;
+	font-family:Gil-Condensed;
+}
+
 .company-data {
 	font-family:Gil-Condensed;
 	font-size:20px;
