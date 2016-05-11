@@ -480,6 +480,7 @@ input:focus {
 	color:#000;
 	height:30px;
 	width:100%;
+	padding:0 4px 0 0;
 }
 
 #name, #company-name, #subject {
@@ -491,6 +492,7 @@ input:focus {
 	font-family:"Gil-Condensed";
 	font-size:20px;
 	border-bottom:3px solid #444;
+	margin-bottom:20px;
 }
 
 #send-msg {
