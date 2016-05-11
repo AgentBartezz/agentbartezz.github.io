@@ -501,12 +501,16 @@ input:focus {
 }
 
 #message {
+	border:0;
+	outline:none;
 	width:100%;
-	height:200px;
+	height:150px;
 	font-family:"Gil-Condensed";
 	font-size:22px;
 	resize:none;
 	background:#dfdfdf;
+	margin-bottom:20px;
+	border-bottom:3px solid #444;
 }
 
 #send-msg {
