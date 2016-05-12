@@ -436,7 +436,7 @@ input:focus {
 	width:400px;
 	height:100px;
 	position:relative;
-	margin-bottom:30px;
+	margin-bottom:15px;
 }
 
 .worker {
@@ -500,7 +500,7 @@ input:focus {
 	font-family:"Gil-Condensed";
 	font-size:22px;
 	border-bottom:3px solid #444;
-	margin-bottom:20px;
+	margin-bottom:22px;
 	background:#dfdfdf;
 }
 
@@ -517,7 +517,7 @@ input:focus {
 	font-size:22px;
 	resize:none;
 	background:#dfdfdf;
-	margin-bottom:20px;
+	margin-bottom:30px;
 	border-bottom:3px solid #444;
 }
 
