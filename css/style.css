@@ -431,6 +431,12 @@ input:focus {
 	position:relative;
 }
 
+.worker-card {
+	box-shadow:0px 2px 3px rgba(0,0,0,0.3);
+	width:400px;
+	height:150px;
+}
+
 .worker {
 	height:100px;
 	width:100%;
