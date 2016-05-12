@@ -434,7 +434,7 @@ input:focus {
 .worker-card {
 	box-shadow:0px 2px 5px rgba(0,0,0,0.4);
 	width:450px;
-	height:150px;
+	height:130px;
 	position:relative;
 	margin-bottom:15px;
 	margin-left:0px;
@@ -501,7 +501,7 @@ input:focus {
 	font-family:"Gil-Condensed";
 	font-size:22px;
 	border-bottom:3px solid #444;
-	margin-bottom:22px;
+	margin-bottom:20px;
 	background:#dfdfdf;
 }
 
@@ -518,7 +518,7 @@ input:focus {
 	font-size:22px;
 	resize:none;
 	background:#dfdfdf;
-	margin-bottom:30px;
+	margin-bottom:26px;
 	border-bottom:3px solid #444;
 }
 
