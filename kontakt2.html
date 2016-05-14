@@ -25,7 +25,7 @@
 				</div>
 				<form method="POST" action="search.php" class="form-search">
 					<input class="input-text-search" type="text" placeholder="Przeszukaj zawartość sklepu...."/>
-					<input class="input-submit-search" type="submit" value="SZUKAJ"/>
+					<input class="input-submit-search "type="submit" value="SZUKAJ"/>
 				</form>
 				<div class="right-top">
 					<div class="contact-nuber">12 123 45 67</div>
@@ -77,7 +77,7 @@
 						<a href="kontakt.html">
 							<div class="box-colored box-black">
 								<div class="box-icon-small box-icon-black">
-									<img src="images/contact-48.png" class="box-icon-image-small"/>
+									<img src="images/Phone-48.png" class="box-icon-image-small"/>
 								</div>
 								<div class="box-title-small box-title-light">KONTAKT</div>				
 							</div>
@@ -150,49 +150,41 @@
 						</div>
 					</article>
 					<article class="worker-card">
+						<header class="worker-header">
+							<div class="worker-name">Antek Kowalski</div>
+						</header>
 						<div class="worker-icon-outer">
 							<div class="worker-icon-bg">
 								<img src="images/worker-52.png" class="worker-icon"/>
 							</div>
 						</div>
 						<div class="worker-data">
-							<div class="worker-name">Antek Kowalski</div>
-							<div class="worker-detail">tel.: 500 500 500</div>
-							<div class="worker-detail">e-mail: <a class="worker-card-link" href="mailto:antek@megaton.org.pl">antek@megaton.org.pl</a></div>
-							<div class="worker-detail">GG: <a class="worker-card-link" href="gg:8792563">123465789</a> <img src="http://status.gadu-gadu.pl/users/status.asp?id=8792563&styl=4" style="width:25px;height:25px;vertical-align:top;"/></div>
+							<div class="worker-content">
+								<div class="worker-detail">tel.: 500 500 500</div>
+								<div class="worker-detail">e-mail: <a class="worker-card-link" href="mailto:antek@megaton.org.pl">antek@megaton.org.pl</a></div>
+								<div class="worker-detail">GG: <a class="worker-card-link" href="gg:8792563">123465789</a> <img src="http://status.gadu-gadu.pl/users/status.asp?id=8792563&styl=4" style="width:25px;height:25px;vertical-align:top;"/></div>
+							</div>
 						</div>
 					</article>
 				</div>
 				<div class="contact-right">
 					<form name="contact_form" method="POST" action="mail.php" id="contact-form">
-						<div class="contact-row">
-							<div class="contact-column-left">
-								<label class="contact-form-label-short">Imię i Nazwisko</label>
-								<input type="text" id="name" name="name"/>
-							</div>
-							<div class="contact-column-right">
-								<label class="contact-form-label-short">Nazwa firmy</label>
-								<input type="text" id="company-name" name="company_name"/>
-							</div>
-						</div>
-						<div class="contact-row">
-							<div class="contact-column-left">
-								<label class="contact-form-label-short">E-mail</label>
-								<input type="text" id="mail" name="mail"/>
-							</div>
-							<div class="contact-column-right">	
-								<label class="contact-form-label-short label-short-left">Telefon</label>
-								<input type="text" id="phone" name="phone"/>
-							</div>
-						</div>
-						<div class="contact-row">
-							<label class="contact-form-label">Temat</label>
-							<input type="text" id="subject" name="subject"/>
-						</div>
+						<header class="form-header">
+							<p class="form-header-title">WYŚLIJ WIADOMOŚĆ</p>
+						</header>
+						<label class="contact-form-label">Imię i Nazwisko</label>
+						<input type="text" id="name" name="name"/>
+						
+						<label class="contact-form-label">Nazwa firmy</label>
+						<input type="text" id="company-name" name="company_name"/>
+						
+						<label class="contact-form-label">Temat</label>
+						<input type="text" id="subject" name="subject"/>
+						
 						<label class="contact-form-label">Wiadomość</label>
 						<textarea id="message" name="message"></textarea>
 						
-						<button type="submit" name="send_msg" id="send-msg"><span class="send-image"><img class="send-icon" src="images/Sent-48.png"/></span><span class="send-text">WYŚLIJ</span></button>
+						<input type="submit" value="WYŚLIJ" name="send_msg" id="send-msg" />
 					</form>	
 				</div>
 			</section>
