@@ -499,6 +499,182 @@ input:focus {
 	padding:10px;
 	background:#fff;
 }
+/*contact2 start*/
+
+.worker-header2 {
+	width:100%;
+	height:52px;
+	background:#1777b4;
+	position:relative;
+}
+
+.worker-name2 {
+	position:absolute;
+	bottom:2px;
+	left:70px;
+	color:#fff;
+	font-size:30px;
+	font-family:Oxygen;
+}
+
+.worker-card2 {
+	box-shadow:0px 2px 5px rgba(0,0,0,0.4);
+	width:450px;
+	height:150px;
+	position:relative;
+	margin-bottom:16px;
+	margin-left:0px;
+	background:#fff;
+	border-bottom:10px solid #344a5f;
+}
+
+.worker-icon-bg2 {
+	background:#bbb;
+	height:70px;
+	width:70px;
+	margin-top:10px;
+	margin-left:5px;
+	border-radius:50%;
+}
+
+.worker-icon-outer2 {
+	width:70px;
+	height:70px;
+	float:left;
+}
+
+
+#contact-form2 {
+	width:650px;
+	height:650px;
+	position:relative;
+	background:#c8eff1;
+}
+
+.form-header2 {
+	background:#159574;
+	height:50px;
+	width:100%;
+	margin-bottom:20px;
+}
+
+.form-header-title2 {
+	height:100%;
+	width:100%;
+	padding-top:14px;
+	font-family:Lovelo;
+	font-size:18px;
+	color:#fff;
+	text-align:center;
+}
+
+.contact-form-label2 {
+	font-family:"Gil-Condensed";
+	font-size:24px;
+	color:#000;
+	height:30px;
+	width:100%;
+	padding:0 0px 0 4px;
+	float:left;
+}
+
+.contact-form-label3 {
+	font-family:"Gil-Condensed";
+	font-size:24px;
+	color:#000;
+	height:30px;
+	width:100%;
+	padding:0 0px 0 14px;
+	float:left;
+}
+
+.contact-form-label-short2 {
+	font-family:"Gil-Condensed";
+	font-size:24px;
+	color:#000;
+	height:30px;
+	width:46%;
+	float:left;
+	padding:0 0px 0 4px;
+}
+
+.contact-row2 {
+	width:630px;
+	height:100px;
+	position:relative;
+}
+
+.contact-column-left2 {
+	float:left;
+	width:310px;
+	height:90px;
+}
+
+.contact-column-right2 {
+	float:left;
+	margin-left:10px;
+	width:310px;
+	height:90px;
+}
+
+#name2, #company-name2, #phone2, #mail2, #subject2 {
+	border:0;
+	outline:none;
+	width:100%;
+	height:45px;
+	padding:0 7px;
+	font-family:"Gil-Condensed";
+	font-size:24px;
+	margin-bottom:20px;
+	background:#2fb997;
+	color:#333;
+}
+
+#name2:focus, #company-name2:focus, #subject2:focus, #message2:focus, #phone2:focus, #mail2:focus {
+	//border-bottom:3px solid #00f;
+	background:#2fc997;
+	color:#000;
+}
+
+#message2 {
+	border:0;
+	outline:none;
+	width:630px;
+	height:150px;
+	font-family:"Gil-Condensed";
+	font-size:24px;
+	resize:none;
+	background:#1fa987;
+	margin-bottom:30px;
+	padding:7px;
+	margin-left:10px;
+	color:#333;
+}
+
+#send-msg2 {
+	border:0;
+	cursor:pointer;
+	width:170px;
+	height:55px;
+	font-family:Lovelo;
+	font-size:18px;
+	background:#ee0000;
+	color:#fff;
+	transition:all .3s;
+	margin-left:10px;
+}
+
+#send-msg2:hover {
+	background:#a00;
+}
+
+
+
+
+
+
+
+/*contact2 end*/
 
 .worker-data {
 	width:330px;
@@ -730,10 +906,18 @@ input:focus {
 	color:white;
 }
 
+.phone-contact-icon {
+	float:left;
+	width:50px;
+    margin-top:20px;
+    margin-right:10px;	
+}
+
 .about-desc {
 	font-size:36px;
 	font-family:"Lovelo";
 	margin-top:20px;
+	display:block;
 }
 
 .about-desc-small {
