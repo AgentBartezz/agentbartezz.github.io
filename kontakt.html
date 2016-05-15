@@ -168,7 +168,7 @@
 						<div class="contact-row">
 							<div class="contact-column-left">
 								<label class="contact-form-label-short">Imię i Nazwisko</label>
-								<input type="text" id="name" name="name"/>
+								<input type="text" required placeholder="Pole wymagane" id="name" name="name"/>
 							</div>
 							<div class="contact-column-right">
 								<label class="contact-form-label-short">Nazwa firmy</label>
@@ -178,7 +178,7 @@
 						<div class="contact-row">
 							<div class="contact-column-left">
 								<label class="contact-form-label-short">E-mail</label>
-								<input type="text" id="mail" name="mail"/>
+								<input type="email" required placeholder="Pole wymagane" id="mail" name="mail"/>
 							</div>
 							<div class="contact-column-right">	
 								<label class="contact-form-label-short label-short-left">Telefon</label>
@@ -187,10 +187,10 @@
 						</div>
 						<div class="contact-row">
 							<label class="contact-form-label">Temat</label>
-							<input type="text" id="subject" name="subject"/>
+							<input type="text" placeholder="Pole wymagane" required id="subject" name="subject"/>
 						</div>
 						<label class="contact-form-label">Wiadomość</label>
-						<textarea id="message" name="message"></textarea>
+						<textarea id="message" placeholder="Pole wymagane" required name="message"></textarea>
 						
 						<button type="submit" name="send_msg" id="send-msg"><span class="send-image"><img class="send-icon" src="images/Sent-48.png"/></span><span class="send-text">WYŚLIJ</span></button>
 					</form>	

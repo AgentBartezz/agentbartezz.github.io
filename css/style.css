@@ -823,12 +823,13 @@ input:focus {
 	font-size:22px;
 	margin-bottom:20px;
 	background:#bbb;
-	color:#000;
+	color:#444;
 }
 
 #name:focus, #company-name:focus, #subject:focus, #message:focus, #phone:focus, #mail:focus {
 	//border-bottom:3px solid #00f;
 	background:#ddd;
+	color:#000;
 }
 
 #message {
@@ -842,6 +843,7 @@ input:focus {
 	background:#bbb;
 	margin-bottom:30px;
 	padding:7px;
+	color:#444;
 }
 
 #send-msg {
