@@ -1339,7 +1339,8 @@ input:focus {
 }
 
 .menu-colored-boxes {
-	width:600px;
+	width:560px;
+	float:right;
 	height:100px;
 	margin-top:50px;
 }
@@ -1347,7 +1348,7 @@ input:focus {
 .box-colored {
 	cursor:pointer;
 	overflow:hidden;
-	width:150px;
+	width:140px;
 	height:100px;
 }
 
