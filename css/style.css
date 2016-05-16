@@ -1379,7 +1379,7 @@ input:focus {
 
 .box-colored-big {
 	cursor:pointer;
-	width:270px;
+	width:235px;
 	height:280px;
 }
 
@@ -1416,11 +1416,11 @@ input:focus {
 }
 
 .ml {
-	margin-left:20px;
+	margin-left:10px;
 }
 
 .mr {
-	margin-right:20px;
+	margin-right:10px;
 }
 
 .box-icon {
@@ -1499,7 +1499,7 @@ input:focus {
 .box-content {
 	color:#000;
 	text-align:center;
-	width:256px;
+	width:236px;
 	font-family:Gil-Condensed;
 	margin:0px 7px 0 7px;
 	z-index:1;
