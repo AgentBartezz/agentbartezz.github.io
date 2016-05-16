@@ -1129,8 +1129,6 @@ input:focus {
 	height:55px;
 	float:left;
 	background:#a00;
-	margin-top:-1px;
-	margin-left:-3px;
 }
 
 .send-icon {
