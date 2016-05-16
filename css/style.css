@@ -1154,13 +1154,13 @@ input:focus {
 
 .about-inner {
 	margin:0 auto;
-	width:1200px;
+	width:1000px;
 	position:relative;
 }
 
 .about-right {
 	height:415px;
-	width:500px;
+	width:450px;
 	position:relative;
 	float:left;
 	color:white;
@@ -1169,19 +1169,19 @@ input:focus {
 .phone-contact-icon {
 	float:left;
 	width:50px;
-    margin-top:20px;
-    margin-right:10px;	
+	margin-top:20px;
+    	margin-right:10px;	
 }
 
 .about-desc {
-	font-size:36px;
+	font-size:33px;
 	font-family:"Lovelo";
 	margin-top:20px;
 	display:block;
 }
 
 .about-desc-small {
-	font-size:23px;
+	font-size:21px;
 	font-family:"Gil-Condensed";
 	margin-top:15px;
 	line-height:26px;
@@ -1190,7 +1190,7 @@ input:focus {
 .about-left {
 	background:#0f0f0f;
 	height:415px;
-	width:500px;
+	width:400px;
 	padding:0 150px 0 0;
 	box-sizing:content-box;
 	transform:skew(-30deg, 0deg);
