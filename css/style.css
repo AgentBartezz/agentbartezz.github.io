@@ -346,6 +346,7 @@ input:focus {
 .image-logo {
 	width:295px;
 	float:left;
+	margin-top:10px;
 }
 
 .main-header-inner {
