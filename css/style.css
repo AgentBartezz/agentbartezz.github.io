@@ -1358,7 +1358,7 @@ input:focus {
 	width:60px;
 	height:60px;
 	position:absolute;
-	left:45px;
+	left:40px;
 	top:5px;
 	z-index:0;
 	transition: all .4s;
