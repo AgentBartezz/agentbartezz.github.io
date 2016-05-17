@@ -1300,15 +1300,15 @@ input:focus {
 .canon-logo {
 	width:140px;
 	position:absolute;
-	top:320px;
-	left:50px;
+	top:260px;
+	left:70px;
 }
 
 .hp-logo {
 	width:110px;
 	position:absolute;
 	top:60px;
-	left:320px;
+	left:340px;
 }
 
 .brother-logo {
@@ -1319,10 +1319,10 @@ input:focus {
 }
 
 .konica-logo {
-	width:180px;
+	width:160px;
 	position:absolute;
-	top:240px;
-	left:-140px;
+	top:200px;
+	left:-240px;
 }
 
 .kyocera-logo {
