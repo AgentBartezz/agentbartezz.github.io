@@ -1411,8 +1411,8 @@ input:focus {
 
 .box-colored-big {
 	cursor:pointer;
-	width:235px;
-	height:280px;
+	width: 220px;
+	height: 280px
 }
 
 .box-cyan {
@@ -1497,29 +1497,28 @@ input:focus {
 }
 
 .box-cyan:hover > .box-icon-small {
-	box-shadow:0 0 0px 65px #00dddd;
+	box-shadow:0 0 0px 55px #00dddd;
 }
 
 .box-magenta:hover > .box-icon-small {
-	box-shadow:0 0 0px 65px #dd00dd;
+	box-shadow:0 0 0px 55px #dd00dd;
 }
 
 .box-yellow:hover > .box-icon-small {
-	box-shadow:0 0 0px 65px #dddd00;
+	box-shadow:0 0 0px 55px #dddd00;
 }
 
 .box-black:hover > .box-icon-small {
-	box-shadow:0 0 0px 65px #444444;
+	box-shadow:0 0 0px 55px #444444;
 }
-
 
 .box-title {
 	color:#000000;
 	width:100%;
 	text-align:center;
-	font-family:"Lovelo";
-	font-size:22px;
-	margin-top:100px;
+	font-family:"LatoBlack";
+	font-size:17px;
+	margin-top:90px;
 	z-index:1;
 	position:relative;
 }
@@ -1531,13 +1530,14 @@ input:focus {
 .box-content {
 	color:#000;
 	text-align:center;
-	width:221px;
-	font-family:Gil-Condensed;
-	margin:0px 7px 0 7px;
+	width:210px;
+	font-family:Roboto;
+	margin:0px 5px 0 5px;
 	z-index:1;
-	font-size:20px;
+	font-size:15px;
 	font-weight:100;
 	position:relative;
+	line-height: 22px;
 }
 
 .box-content-light {
