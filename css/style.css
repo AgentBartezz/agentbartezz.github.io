@@ -1357,11 +1357,11 @@ input:focus {
 
 .in-offer-left {
 	float:left;
-	width:100px;
+	width:200px;
 }
 
 .in-offer-right {
-	width:200px;
+	width:1200px;
 	float:right;
 }
 
