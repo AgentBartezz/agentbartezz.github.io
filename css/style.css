@@ -1168,7 +1168,7 @@ input:focus {
 #about {
 	background:url(../images/about-left.jpg);
 	width:100%;
-	height:415px;
+	height:360px;
 	margin-bottom:30px;
 	overflow:hidden;
 }
@@ -1176,12 +1176,12 @@ input:focus {
 .about-inner {
 	margin:0 auto;
 	width:1200px;
-	height:415px;
+	height:360px;
 	position:relative;
 }
 
 .about-right {
-	height:415px;
+	height:360px;
 	width:500px;
 	position:relative;
 	float:left;
@@ -1198,7 +1198,7 @@ input:focus {
 .about-desc {
 	font-size:27px;
 	font-family:"LatoBold";
-    	margin-top:35px;
+    	margin-top:10px;
     	display:block;
 }
 
@@ -1211,7 +1211,7 @@ input:focus {
 
 .about-left {
 	background:#0f0f0f;
-	height:415px;
+	height:360px;
 	width:485px;
 	padding:0 150px 0 0;
 	box-sizing:content-box;
@@ -1262,8 +1262,8 @@ input:focus {
 	text-align:center;
 	padding-top:12px;
 	position:absolute;
-	right:-74px;
-	top:275px;
+	right:-110px;
+	top:250px;
 	transition: all .4s;
 }
 
@@ -1349,10 +1349,20 @@ input:focus {
 }
 
 #in-offer {
-	width:1000px;
+	width:1200px;
 	height:350px;
 	margin-top:70px;
 	position:relative;
+}
+
+.in-offer-left {
+	float:left;
+	width:100px;
+}
+
+.in-offer-right {
+	width:200px;
+	float:right;
 }
 
 .menu-colored-boxes {
