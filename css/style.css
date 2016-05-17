@@ -1358,15 +1358,15 @@ input:focus {
 .menu-colored-boxes {
 	width:520px;
 	float:right;
-	height:100px;
-	margin-top:50px;
+	height: 90px;
+	margin-top: 60px;
 }
 
 .box-colored {
 	cursor:pointer;
 	overflow:hidden;
 	width: 130px;
-    	height: 90px;
+    	height: 85px
 }
 
 .box-icon-small {
@@ -1393,8 +1393,8 @@ input:focus {
 	width:100%;
 	text-align:center;
 	font-family: LatoBlack;
-    	font-size: 16px;
-	margin-top:70px;
+    	font-size:15px;
+    	margin-top: 57px;
 	z-index:1;
 	position:relative;
 }
