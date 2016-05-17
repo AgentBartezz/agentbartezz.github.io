@@ -17,12 +17,24 @@ input {
 	src:url(../fonts/Gil-Condensed.ttf);
 }
 @font-face{
-	font-family:"Play";
-	src:url(../fonts/Play-Regular.ttf);
+	font-family:"Droid";
+	src:url(../fonts/DroidSans.ttf);
 }
 @font-face{
-	font-family:"Oxygen";
-	src:url(../fonts/Oxygen-Regular.ttf);
+	font-family:"DroidBold";
+	src:url(../fonts/DroidSans-Bold.ttf);
+}
+@font-face{
+	font-family:"Lato";
+	src:url(../fonts/Lato-Regular.ttf);
+}
+@font-face{
+	font-family:"LatoBlack";
+	src:url(../fonts/Lato-Black.ttf);
+}
+@font-face{
+	font-family:"LatoBold";
+	src:url(../fonts/LatoBold.ttf);
 }
 
 .over-loader {
@@ -41,7 +53,7 @@ header, main, footer, aside, nav, section, article {
 
 body {
 	background:#fafafa;
-	font-family:"Oxygen";
+	font-family:"Droid";
 	width:100%;
 }
 
@@ -1180,14 +1192,14 @@ input:focus {
 
 .about-desc {
 	font-size:33px;
-	font-family:"Lovelo";
+	font-family:"Lato";
 	margin-top:20px;
 	display:block;
 }
 
 .about-desc-small {
 	font-size:21px;
-	font-family:"Gil-Condensed";
+	font-family:"Droid";
 	margin-top:15px;
 	line-height:26px;
 }
