@@ -1357,11 +1357,11 @@ input:focus {
 
 .in-offer-left {
 	float:left;
-	width:200px;
+	width:260px;
 }
 
 .in-offer-right {
-	width:1000px;
+	width:940px;
 	float:right;
 }
 
@@ -1411,8 +1411,8 @@ input:focus {
 
 .box-colored-big {
 	cursor:pointer;
-	width: 220px;
-	height: 280px
+	width:220px;
+	height:265px
 }
 
 .box-cyan {
@@ -1457,11 +1457,11 @@ input:focus {
 
 .box-icon {
 	border-radius:50%;
-	width:120px;
-	height:120px;
-	position:absolute;
-	left:57.5px;
-	top:-40px;
+	width: 100px;
+    	height: 100px;
+    	position: absolute;
+    	left: 60px;
+    	top: -30px;
 	z-index:0;
 	transition:all .3s;
 }
@@ -1489,10 +1489,10 @@ input:focus {
  
 
 .box-icon-image {
-	width:80px;
-	height:80px;
-	margin-left:20px;
-	margin-top:20px;
+	width: 60px;
+    	height: 60px;
+    	margin-left: 20px;
+    	margin-top: 20px;
 	transition: all .3s;
 }
 
@@ -1518,7 +1518,8 @@ input:focus {
 	text-align:center;
 	font-family:"LatoBlack";
 	font-size:17px;
-	margin-top:90px;
+    	margin-top: 85px;
+    	margin-bottom:6px;
 	z-index:1;
 	position:relative;
 }
