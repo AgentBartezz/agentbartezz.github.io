@@ -1365,6 +1365,18 @@ input:focus {
 	float:right;
 }
 
+.offer-colored-boxes {
+	width:940px;
+	height:350px;
+	position:relative;
+}
+
+.new-item {
+	width:940px;
+	height:350px;
+	position:relative;	
+}
+
 .menu-colored-boxes {
 	width:520px;
 	float:right;
