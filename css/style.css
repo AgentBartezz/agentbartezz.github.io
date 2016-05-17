@@ -1307,8 +1307,8 @@ input:focus {
 .hp-logo {
 	width:110px;
 	position:absolute;
-	top:60px;
-	left:340px;
+	top: 30px;
+    	left: 490px;
 }
 
 .brother-logo {
@@ -1335,8 +1335,8 @@ input:focus {
 .samsung-logo {
 	width:140px;
 	position:absolute;
-	top:110px;
-	left:180px;
+	top: 120px;
+    	left: 345px;
 }
 
 .oki-logo {
