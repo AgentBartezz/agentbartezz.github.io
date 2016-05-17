@@ -1645,7 +1645,7 @@ input:focus {
 .news-item-title {
 	color:#000;
 	font-family:"Gil-Condensed";
-	font-size: 25px;
+	font-size:23px;
 	font-weight:300;
 	text-transform:uppercase;
 	transition:all .5s;
