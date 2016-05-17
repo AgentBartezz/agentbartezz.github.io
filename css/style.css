@@ -1175,13 +1175,14 @@ input:focus {
 
 .about-inner {
 	margin:0 auto;
-	width:1000px;
+	width:1200px;
+	height:415px;
 	position:relative;
 }
 
 .about-right {
 	height:415px;
-	width:450px;
+	width:500px;
 	position:relative;
 	float:left;
 	color:white;
@@ -1195,15 +1196,15 @@ input:focus {
 }
 
 .about-desc {
-	font-size:33px;
-	font-family:"Lato";
-	margin-top:20px;
-	display:block;
+	font-size:27px;
+	font-family:"LatoBold";
+    	margin-top:35px;
+    	display:block;
 }
 
 .about-desc-small {
-	font-size:21px;
-	font-family:"Droid";
+	font-size:15px;
+	font-family:"Roboto";
 	margin-top:15px;
 	line-height:26px;
 }
@@ -1211,10 +1212,10 @@ input:focus {
 .about-left {
 	background:#0f0f0f;
 	height:415px;
-	width:400px;
+	width:485px;
 	padding:0 150px 0 0;
 	box-sizing:content-box;
-	transform:skew(-20deg, 0deg);
+	transform:skew(-30deg, 0deg);
 	position:relative;
 	float:left;
 	z-index:1;
@@ -1271,8 +1272,7 @@ input:focus {
 }
 
 .smth {
-	color:#f21;
-	transform:skew(20deg, 0deg); 
+	transform:skew(30deg, 0deg); 
 }
 
 .company-logo {
