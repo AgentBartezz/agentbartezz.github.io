@@ -228,7 +228,7 @@ input:focus {
 
 .main-header {
 	width:100%;
-	height:150px;
+	height:135px;
 	position:relative;
 	background:#ffffff;
 	/*#E71c15*/;
@@ -367,18 +367,17 @@ input:focus {
 
 .main-header-inner {
 	width:1200px;
-	height:100px;
+	height:135px;
 	position:relative;
 }
 
 .main-header-logo {
-	height:140px;
+	height:135px;
 	display:block;
 	position:relative;
 	width:400px;
 	float:left;
 	margin:0;
-	margin-top:10px;
 }
 
 .main-header-logo-image {
@@ -388,7 +387,7 @@ input:focus {
 
 .main-header-part-right {
 	width:600px;
-	height:150px;
+	height:135px;
 	position:relative;
 	float:right;
 }
@@ -1379,7 +1378,7 @@ input:focus {
 	width:520px;
 	float:right;
 	height: 90px;
-	margin-top: 65px;
+	margin-top: 50px;
 }
 
 .box-colored {
