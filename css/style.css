@@ -17,12 +17,16 @@ input {
 	src:url(../fonts/Gil-Condensed.ttf);
 }
 @font-face{
-	font-family:"Droid";
-	src:url(../fonts/DroidSans.ttf);
+	font-family:"Roboto";
+	src:url(../fonts/Roboto-Regular.ttf);
 }
 @font-face{
-	font-family:"DroidBold";
-	src:url(../fonts/DroidSans-Bold.ttf);
+	font-family:"RobotoBlack";
+	src:url(../fonts/Roboto-Black.ttf);
+}
+@font-face{
+	font-family:"RobotoBold";
+	src:url(../fonts/Roboto-Bold.ttf);
 }
 @font-face{
 	font-family:"Lato";
@@ -34,7 +38,7 @@ input {
 }
 @font-face{
 	font-family:"LatoBold";
-	src:url(../fonts/LatoBold.ttf);
+	src:url(../fonts/Lato-Bold.ttf);
 }
 
 .over-loader {
