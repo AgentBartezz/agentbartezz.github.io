@@ -1705,25 +1705,25 @@ input:focus {
 	width:80px;
 	height:34px;
 	float:right;
-	padding-top:7px;
+	padding-top:8px;
 }
 
 .a-link {
-    background: #E41111;
-    text-decoration: none;
-    display: block;
-    vertical-align: middle;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 100;
-    text-align: center;
-    font-size: 15px;
-    font-family:"LatoBold";
+	background: #E41111;
+    	text-decoration: none;
+    	display: block;
+    	vertical-align: middle;
+    	color: #fff;
+    	text-transform: uppercase;
+    	font-weight: 100;
+    	text-align: center;
+    	font-size: 14px;
+    	font-family:"LatoBold";
 }
 
 .news-item-content-text-inner {
 	font-family:Lato;
-	font-size:15px;
+	font-size:13px;
 	font-weight:100;
 	line-height:25px;
 }
