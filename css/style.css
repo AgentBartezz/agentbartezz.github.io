@@ -1163,12 +1163,10 @@ input:focus {
 	background:#a00;
 }
 
-
-
 #about {
 	background:url(../images/about-left.jpg);
 	width:100%;
-	height:360px;
+	height:345px;
 	margin-bottom:30px;
 	overflow:hidden;
 }
@@ -1176,12 +1174,12 @@ input:focus {
 .about-inner {
 	margin:0 auto;
 	width:1200px;
-	height:360px;
+	height:345px;
 	position:relative;
 }
 
 .about-right {
-	height:360px;
+	height:345px;
 	width:500px;
 	position:relative;
 	float:left;
@@ -1211,7 +1209,7 @@ input:focus {
 
 .about-left {
 	background:#0f0f0f;
-	height:360px;
+	height:345px;
 	width:485px;
 	padding:0 150px 0 0;
 	box-sizing:content-box;
@@ -1235,7 +1233,7 @@ input:focus {
 	font-size:20px;
 	background:#ee0000;
 	display:block;
-	margin-top:40px;
+	margin-top:25px;
 	float:left;
 	color:#fff;
 	text-decoration:none;
