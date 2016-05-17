@@ -1294,7 +1294,7 @@ input:focus {
 	width:200px;
 	position:absolute;
 	top:190px;
-	left:270px;
+	left: 360px;
 }
 
 .canon-logo {
@@ -1321,8 +1321,8 @@ input:focus {
 .konica-logo {
 	width:160px;
 	position:absolute;
-    	top: 195px;
-    	left: -50px;
+        top: 210px;
+	left: -60px;
 }
 
 .kyocera-logo {
