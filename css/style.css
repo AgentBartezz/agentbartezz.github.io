@@ -1355,6 +1355,12 @@ input:focus {
 .in-offer-left {
 	float:left;
 	width:260px;
+	height:600px;
+}
+
+.promo-box {
+	height:540px;
+	background:#e7e7e7;
 }
 
 .in-offer-right {
