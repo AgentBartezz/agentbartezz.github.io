@@ -10,6 +10,12 @@ $(window).load(function() {
 		if(slide == 2) {
 			slider(2,3,4,1);
 		}
+		if(slide == 3) {
+			slider(3,4,1,2);
+		}
+		if(slide == 4) {
+			slider(4,1,2,3);
+		}
 	});
 });
 
