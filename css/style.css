@@ -1599,19 +1599,19 @@ input:focus {
 }
 
 #slider-image-1 {
-	left:0;
-}
-
-#slider-image-2 {
 	left:940px;
 }
 
-#slider-image-3 {
+#slider-image-2 {
 	left:1880px;
 }
 
+#slider-image-3 {
+	left:940px;
+}
+
 #slider-image-4 {
-	left:-940px;
+	left:0px;
 }
 
 .arrow-bg {
