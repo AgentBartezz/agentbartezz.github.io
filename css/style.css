@@ -1165,8 +1165,8 @@ input:focus {
 #about {
 	background:url(../images/about-left.jpg);
 	width:100%;
-	height:320px;
-	margin-bottom:30px;
+	height:300px;
+	position:relative;
 	overflow:hidden;
 }
 
@@ -1226,18 +1226,18 @@ input:focus {
 }
 
 .about-link {
-	width:160px;
-	height:50px;
-	font-family:"LatoBold";
-	font-size:17px;
-	background:#ee0000;
-	display:block;
-	margin-top:25px;
-	float:left;
-	color:#fff;
-	text-decoration:none;
-	text-align:center;
-	padding-top:14px;
+	width: 150px;
+	height: 45px;
+	font-family: "LatoBold";
+	font-size: 17px;
+	background: #ee0000;
+	display: block;
+	margin-top: 15px;
+	float: left;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 12px;
 	transition: all .4s;
 }
 
@@ -1246,21 +1246,21 @@ input:focus {
 }
 
 .about-link-shop {
-	width:240px;
-	height:50px;
-	font-family:"LatoBold";
-	font-size:17px;
-	background:#00cc00;
-	display:block;
-	margin-top:40px;
-	float:right;
-	color:#fff;
-	text-decoration:none;
-	text-align:center;
-	padding-top:14px;
-	position:absolute;
-	right:-110px;
-	top:215px;
+	width: 220px;
+	height: 45px;
+	font-family: "LatoBold";
+	font-size: 17px;
+	background: #00cc00;
+	display: block;
+	margin-top: 40px;
+	float: right;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 12px;
+	position: absolute;
+	right: -110px;
+	top: 197px;
 	transition: all .4s;
 }
 
@@ -1348,7 +1348,7 @@ input:focus {
 #in-offer {
 	width:1200px;
 	height:810px;
-	margin-top:50px;
+	margin-top:20px;
 	position:relative;
 }
 
@@ -1359,7 +1359,7 @@ input:focus {
 }
 
 .promo-box {
-	height:738px;
+	height:719px;
 	background:#e7e7e7;
 }
 
@@ -1370,7 +1370,7 @@ input:focus {
 
 .offer-colored-boxes {
 	width:940px;
-	height:250px;
+	height:235px;
 	position:relative;
 }
 
@@ -1427,7 +1427,7 @@ input:focus {
 .box-colored-big {
 	cursor:pointer;
 	width:220px;
-	height:235px
+	height:220px
 }
 
 .box-cyan {
@@ -1472,11 +1472,11 @@ input:focus {
 
 .box-icon {
 	border-radius:50%;
-	width: 100px;
-    	height: 100px;
-    	position: absolute;
-    	left: 60px;
-    	top: -30px;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 70px;
+	top: -15px;
 	z-index:0;
 	transition:all .3s;
 }
@@ -1503,10 +1503,10 @@ input:focus {
 }
  
 .box-icon-image {
-	width: 60px;
-    	height: 60px;
-    	margin-left: 20px;
-    	margin-top: 20px;
+	width: 50px;
+	height: 50px;
+	margin-left: 15px;
+	margin-top: 15px;
 	transition: all .3s;
 }
 
@@ -1532,7 +1532,7 @@ input:focus {
 	text-align:center;
 	font-family:"LatoBold";
 	font-size:17px;
-    	margin-top: 80px;
+    	margin-top: 70px;
     	margin-bottom: 3px;
 	z-index:1;
 	position:relative;
@@ -1578,7 +1578,7 @@ input:focus {
 .slider-container {
 	margin-bottom:20px;
 	width:940px;
-	height:200px;
+	height:230px;
 	background:#f0f0f0;
 	position:relative;
 }
@@ -1627,17 +1627,17 @@ input:focus {
 
 .news-item {
 	width:310px;
-	height:250px;
+	height:230px;
 	background:#fff;
 	box-shadow:0px 2px 3px rgba(0,0,0,0.3);
 	float:left;
-	margin-top:10px;
+	margin-top:3px;
 	position:relative;
 	overflow:hidden;
 }
 
 .news-item-middle {
-	margin:10px 5px 0;
+	margin:3px 5px 0;
 }
 
 .news-item-image-box {
