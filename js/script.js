@@ -25,10 +25,10 @@ function slider(a,b,c,d) {
 	var right = "#slider-item-" + b;
 	var under = "#slider-item-" + c;
 	console.log(main);
-	$(main).animate({left:0},400).addClass("z-1");
+	
 	$(right).animate({left:940},400);
 	$(under).animate({left:0},400);
 	$(left).animate({left:-940},400);
-	$('.slider-item').delay(400).queue(function(){$(this).removeClass("z-1");}).dequeue();
-
+	setTimeout(function () { $('.slider-item').removeClass("z-1")}400);
+	$(main).animate({left:0},400).addClass("z-1");
 }
