@@ -10,7 +10,7 @@ $(window).load(function() {
 	});
 });
 
-function slide(a,b,c,d) {
+function slider(a,b,c,d) {
 	var trigger = "#slider-image-" + a;
 	console.log(trigger);
 }
