@@ -24,7 +24,7 @@ function slider(a,b,c,d) {
 	var left = "#slider-item-" + d;
 	var right = "#slider-item-" + b;
 	var under = "#slider-item-" + c;
-	$('.slider-item').queue(function(){$(this).removeClass("z-1");)};
+	$('.slider-item').delay(400).queue(function(){$(this).removeClass("z-1");});
 	console.log(main);
 	$(main).animate({left:0},400).addClass("z-1");
 	$(right).animate({left:940},400);
