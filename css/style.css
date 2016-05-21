@@ -1615,18 +1615,22 @@ input:focus {
 
 #slider-item-1 {
 	left:0px;
+	background:red;
 }
 
 #slider-item-2 {
 	left:940px;
+	background:blue;
 }
 
 #slider-item-3 {
 	left:0px;
+	background:orange;
 }
 
 #slider-item-4 {
 	left:-940px;
+	background:lime;
 }
 
 .arrow-bg {
