@@ -3,5 +3,6 @@ $(window).load(function() {
 	
 	$(".jumper").click(function(){
 		var slide = $(this).attr("data-slider")	;
+		console.log(slide);
 	});
 });
