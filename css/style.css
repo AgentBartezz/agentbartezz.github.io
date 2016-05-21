@@ -1581,14 +1581,12 @@ input:focus {
 	height:230px;
 	background:#f0f0f0;
 	position:relative;
-	overflow:hidden;
 }
 
 .slider-inner {
-	width:2820px;
+	width:940px;
 	height:230px;
-	position:absolute;
-	left:-940px;
+	overflow:hidden;
 }
 
 .slider-image {
@@ -1599,19 +1597,19 @@ input:focus {
 }
 
 #slider-image-1 {
-	left:940px;
+	left:0px;
 }
 
 #slider-image-2 {
-	left:1880px;
-}
-
-#slider-image-3 {
 	left:940px;
 }
 
-#slider-image-4 {
+#slider-image-3 {
 	left:0px;
+}
+
+#slider-image-4 {
+	left:-940px;
 }
 
 .arrow-bg {
