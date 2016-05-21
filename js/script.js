@@ -3,7 +3,7 @@ $(window).load(function() {
 	
 	$(".jumper").click(function(){
 		$(".slider-item").fadeOut(400);
-		$(".jumper").removeClass("jumper-active");
+		$(".jumper").removeClass("jumper-active").removeAttr("disabled");
 		var slide = $(this).attr("data-slider")	;
 		
 		if(slide == 1) {
@@ -25,7 +25,7 @@ function slider(a) {
 	var target = "#slider-item-" + a;
 	$(target).fadeIn(400);
 	var b = a - 1;
-	$(".jumper").eq(b).addClass("jumper-active");
+	$(".jumper").eq(b).addClass("jumper-active").attr("disabled", "disabled");
 	/*var left = "#slider-item-" + d;
 	var right = "#slider-item-" + b;
 	var under = "#slider-item-" + c;
