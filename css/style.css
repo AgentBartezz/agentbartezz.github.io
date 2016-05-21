@@ -1633,6 +1633,22 @@ input:focus {
 	background:lime;
 }
 
+.jumper-box {
+	top:0;
+	left:0;
+	position:absolute;
+	width:86px;
+	height:22px;
+	background:rgba(0,0,0,0.3);
+}
+
+.jumper {
+	margin-left:1px;
+	width:20px;
+	height:20px;
+	background:green;
+}
+
 .arrow-bg {
 	width:50px;
 	height:50px;
