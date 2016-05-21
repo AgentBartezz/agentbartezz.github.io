@@ -2,7 +2,7 @@ $(window).load(function() {
 	$(".over-loader").delay(300).fadeOut(100);
 	
 	$(".jumper").click(function(){
-		$(".slider-item).fadeOut(400);
+		$(".slider-item").fadeOut(400);
 		var slide = $(this).attr("data-slider")	;
 		
 		if(slide == 1) {
