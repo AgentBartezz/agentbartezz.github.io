@@ -11,10 +11,10 @@ $(window).load(function() {
 });
 
 function slider(a,b,c,d) {
-	var main = "#slider-image-" + a;
-	var left = "#slider-image-" + d;
-	var right = "#slider-image-" + b;
-	var under = "#slider-image-" + c;
+	var main = "#slider-item-" + a;
+	var left = "#slider-item-" + d;
+	var right = "#slider-item-" + b;
+	var under = "#slider-item-" + c;
 	console.log(main);
 	$(main).animate({left:0},100);
 	$(right).animate({left:940},100);
