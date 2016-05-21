@@ -1638,21 +1638,27 @@ input:focus {
 
 .jumpers-box {
 	top:5px;
-	right:5px;
+	right:370px;
 	position:absolute;
-	width:90px;
-	height:26px;
-	background:rgba(0,0,0,0.3);
+	width:200px;
+	height:40px;
 	z-index:5;
 }
 
 .jumper {
-	margin-left:1px;
+	margin-left:15px;
 	margin-top:3px;
-	width:20px;
-	height:20px;
-	background:cyan;
-	float:left;
+	background: #263238;
+	float: left;
+	width:30px;
+	height:30px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	box-shadow: 0px 1px 2px #000, inset 0 0 1px #000;
+}
+
+.jumper-active {
+	background:#fff;
 }
 
 .arrow-bg {
