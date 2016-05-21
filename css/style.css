@@ -8,6 +8,22 @@ input {
 	border:0;
 }
 
+.z-0 {
+	z-index:0;	
+}
+
+.z-1 {
+	z-index:1;	
+}
+
+.z-2 {
+	z-index:2;	
+}
+
+.z-3 {
+	z-index:3;	
+}
+
 @font-face{
 	font-family:"Lovelo";
 	src:url(../fonts/Lovelo-Black.otf);
@@ -1590,26 +1606,26 @@ input:focus {
 	overflow:hidden;
 }
 
-.slider-image {
+.slider-item {
 	position:absolute;
 	top:0;
 	width:940px;
 	height:230px;
 }
 
-#slider-image-1 {
+#slider-item-1 {
 	left:0px;
 }
 
-#slider-image-2 {
+#slider-item-2 {
 	left:940px;
 }
 
-#slider-image-3 {
+#slider-item-3 {
 	left:0px;
 }
 
-#slider-image-4 {
+#slider-item-4 {
 	left:-940px;
 }
 
