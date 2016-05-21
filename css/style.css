@@ -1619,17 +1619,20 @@ input:focus {
 }
 
 #slider-item-2 {
-	left:940px;
+	left:0;
 	background:blue;
+	display:none;
 }
 
 #slider-item-3 {
 	left:0px;
+	display:none;
 	background:orange;
 }
 
 #slider-item-4 {
-	left:-940px;
+	left:0;
+	display:none;
 	background:lime;
 }
 
