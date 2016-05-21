@@ -1649,6 +1649,7 @@ input:focus {
 	width:20px;
 	height:20px;
 	background:cyan;
+	float:left;
 }
 
 .arrow-bg {
