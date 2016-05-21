@@ -1633,20 +1633,22 @@ input:focus {
 	background:lime;
 }
 
-.jumper-box {
-	top:0;
-	left:0;
+.jumpers-box {
+	top:5px;
+	right:5px;
 	position:absolute;
 	width:86px;
 	height:22px;
 	background:rgba(0,0,0,0.3);
+	z-index:5;
 }
 
 .jumper {
 	margin-left:1px;
+	margin-top:1px;
 	width:20px;
 	height:20px;
-	background:green;
+	background:cyan;
 }
 
 .arrow-bg {
