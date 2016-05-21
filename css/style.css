@@ -1637,12 +1637,12 @@ input:focus {
 }
 
 .jumpers-box {
-	top:5px;
-	right:370px;
-	position:absolute;
-	width:200px;
-	height:40px;
-	z-index:5;
+	top: 5px;
+	right: 417.5px;
+	position: absolute;
+	width: 105px;
+	height: 40px;
+	z-index: 5;
 }
 
 .jumper {
@@ -1666,6 +1666,7 @@ input:focus {
 	height:50px;
 	position:absolute;
 	top:80px;
+	z-index:5;
 	background:rgba(0,0,0,0.6);
 }
 
