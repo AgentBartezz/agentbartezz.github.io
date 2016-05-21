@@ -28,7 +28,6 @@ function slider(a,b,c,d) {
 	$('.slider-inner').find('.z-1', function() {
 		setTimeout(function(){$(this).removeClass("z-1");}, 400);
 	});
-	console.log(checker);
 	$(right).animate({left:940},400);
 	$(under).animate({left:0},400);
 	$(left).animate({left:-940},400);
