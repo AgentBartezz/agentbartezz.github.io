@@ -3,7 +3,7 @@ $(window).load(function() {
 	
 	$(".jumper").click(function(){
 		var slide = $(this).attr("data-slider")	;
-	
+		
 		if(slide == 1) {
 			slider(1,2,3,4);
 		}
@@ -24,8 +24,9 @@ function slider(a,b,c,d) {
 	var left = "#slider-item-" + d;
 	var right = "#slider-item-" + b;
 	var under = "#slider-item-" + c;
-	console.log(main);
 	
+	var checker = $('.slider-inner').find('.slider-item z-1');
+	console.log(checker);
 	$(right).animate({left:940},400);
 	$(under).animate({left:0},400);
 	$(left).animate({left:-940},400);
