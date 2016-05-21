@@ -7,6 +7,9 @@ $(window).load(function() {
 		if(slide == 1) {
 			slider(1,2,3,4);
 		}
+		if(slide == 2) {
+			slider(2,3,4,1);
+		}
 	});
 });
 
