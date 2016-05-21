@@ -25,7 +25,7 @@ function slider(a,b,c,d) {
 	var right = "#slider-item-" + b;
 	var under = "#slider-item-" + c;
 	
-	var checker = $('.slider-inner').find('.slider-item z-1');
+	var checker = $('.slider-inner').find('.z-1');
 	console.log(checker);
 	$(right).animate({left:940},400);
 	$(under).animate({left:0},400);
