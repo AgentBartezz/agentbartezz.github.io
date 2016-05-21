@@ -1581,10 +1581,37 @@ input:focus {
 	height:230px;
 	background:#f0f0f0;
 	position:relative;
+	overflow:hidden;
 }
 
 .slider-inner {
-	
+	width:2820px;
+	height:230px;
+	position:absolute;
+	left:-940px;
+}
+
+.slider-image {
+	position:absolute;
+	top:0;
+	width:940px;
+	height:230px;
+}
+
+#slider-image-1 {
+	left:0;
+}
+
+#slider-image-2 {
+	left:940px;
+}
+
+#slider-image-3 {
+	left:1880px;
+}
+
+#slider-image-4 {
+	left:-940px;
 }
 
 .arrow-bg {
