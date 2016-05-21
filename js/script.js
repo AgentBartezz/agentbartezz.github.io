@@ -11,6 +11,13 @@ $(window).load(function() {
 });
 
 function slider(a,b,c,d) {
-	var trigger = "#slider-image-" + a;
-	console.log(trigger);
+	var main = "#slider-image-" + a;
+	var left = "#slider-image-" + d;
+	var right = "#slider-image-" + b;
+	var under = "#slider-image-" + c;
+	console.log(main);
+	$(main).animate({left:0},100);
+	$(right).animate({left:940},100);
+	$(under).animate({left:0},100);
+	$(left).animate({left:-940},0);
 }
