@@ -52,9 +52,9 @@ $(window).load(function() {
 });
 
 function slider(a) {
-	var target = "#slider-item-" + slide;
+	var target = "#slider-item-" + a;
 	$(target).fadeIn(400);
-	var b = slide - 1;
+	var b = a - 1;
 	$(".jumper").eq(b).addClass("jumper-active").attr("disabled", "disabled");
 	/*var left = "#slider-item-" + d;
 	var right = "#slider-item-" + b;
