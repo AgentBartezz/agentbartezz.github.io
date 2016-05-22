@@ -8,33 +8,33 @@ $(window).load(function() {
 		slider(slide);
 	});
 	var count = $(".slider-inner").children().length;
-	$(."right-arrow").click(function(count) {
+	$(".right-arrow").click(function(count) {
 		var slide = $(this).attr("data-slider")	;
 		slider(slide);
 		if(slide == count) {
 			$(this).attr("data-slider", "1");
-			$(."left-arrow").attr("data-slider", count - 1);
+			$(".left-arrow").attr("data-slider", count - 1);
 		} if(slide == "1") {
 			$(this).attr("data-slider", "2");
-			$(."left-arrow").attr("data-slider", count);
+			$(".left-arrow").attr("data-slider", count);
 		} else {
 			$(this).attr("data-slider", slide + 1);
-			$(."left-arrow").attr("data-slider", slide - 1);
+			$(".left-arrow").attr("data-slider", slide - 1);
 		}
 	});
 	
-	$(."left-arrow").click(function(count) {
+	$(".left-arrow").click(function(count) {
 		var slide = $(this).attr("data-slider")	;
 		slider(slide);
 		if(slide == count) {
 			$(this).attr("data-slider", count - 1);
-			$(."right-arrow").attr("data-slider", "1");
+			$(".right-arrow").attr("data-slider", "1");
 		} if(slide == "1") {
 			$(this).attr("data-slider", count);
-			$(."right-arrow").attr("data-slider", slide + 1);
+			$(".right-arrow").attr("data-slider", slide + 1);
 		} else {
 			$(this).attr("data-slider", slide - 1);
-			$(."right-arrow").attr("data-slider", slide + 1);
+			$(".right-arrow").attr("data-slider", slide + 1);
 		}
 	});
 });
