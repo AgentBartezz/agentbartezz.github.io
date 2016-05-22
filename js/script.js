@@ -13,13 +13,13 @@ $(window).load(function() {
 		slider(slide);
 		if(slide == count) {
 			$(this).attr("data-slider", "1");
-			$(".left-arrow").attr("data-slider", count - 1);
+			$(".left-arrow").attr("data-slider", --count);
 		} if(slide == "1") {
 			$(this).attr("data-slider", "2");
 			$(".left-arrow").attr("data-slider", count);
 		} else {
-			$(this).attr("data-slider", slide + 1);
-			$(".left-arrow").attr("data-slider", slide - 1);
+			$(this).attr("data-slider", ++slide);
+			$(".left-arrow").attr("data-slider", --slide);
 		}
 	});
 	
@@ -27,14 +27,14 @@ $(window).load(function() {
 		var slide = $(this).attr("data-slider")	;
 		slider(slide);
 		if(slide == count) {
-			$(this).attr("data-slider", count - 1);
+			$(this).attr("data-slider", --count);
 			$(".right-arrow").attr("data-slider", "1");
 		} if(slide == "1") {
 			$(this).attr("data-slider", count);
-			$(".right-arrow").attr("data-slider", slide + 1);
+			$(".right-arrow").attr("data-slider", ++slide);
 		} else {
 			$(this).attr("data-slider", slide - 1);
-			$(".right-arrow").attr("data-slider", slide + 1);
+			$(".right-arrow").attr("data-slider", ++slide);
 		}
 	});
 });
