@@ -39,10 +39,10 @@ $(window).load(function() {
 	});
 });
 
-function slider(a) {
-	var target = "#slider-item-" + a;
+function slider(slide) {
+	var target = "#slider-item-" + slide;
 	$(target).fadeIn(400);
-	var b = a - 1;
+	var b = slide - 1;
 	$(".jumper").eq(b).addClass("jumper-active").attr("disabled", "disabled");
 	/*var left = "#slider-item-" + d;
 	var right = "#slider-item-" + b;
