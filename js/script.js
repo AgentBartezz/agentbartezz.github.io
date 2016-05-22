@@ -7,6 +7,36 @@ $(window).load(function() {
 		var a = $(this).attr("data-slider");
 		slider(a);
 	});
+	var count = $(".slider-inner").children().length;
+	$(".right-arrow").click(function(count) {
+		var a = $(this).attr("data-slider")	;
+		slider(a);
+		if(a == count) {
+			$(this).attr("data-slider", "1");
+			$(".left-arrow").attr("data-slider", --count);
+		} if(a == "1") {
+			$(this).attr("data-slider", "2");
+			$(".left-arrow").attr("data-slider", count);
+		} else {
+			$(this).attr("data-slider", ++a);
+			$(".left-arrow").attr("data-slider", --a);
+		}
+	});
+	
+	$(".left-arrow").click(function(count) {
+		var a = $(this).attr("data-slider")	;
+		slider(a);
+		if(a == count) {
+			$(this).attr("data-slider", --count);
+			$(".right-arrow").attr("data-slider", "1");
+		} if(a == "1") {
+			$(this).attr("data-slider", count);
+			$(".right-arrow").attr("data-slider", ++a);
+		} else {
+			$(this).attr("data-slider", --a);
+			$(".right-arrow").attr("data-slider", ++a);
+		}
+	});
 });
 
 function slider(a) {
