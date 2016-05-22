@@ -18,7 +18,10 @@ $(window).load(function() {
 		if(slide == 4) {
 			slider(4);
 		}
-	function slider(a) {
+	});
+});
+
+function slider(a) {
 	var target = "#slider-item-" + a;
 	$(target).fadeIn(400);
 	var b = a - 1;
@@ -46,7 +49,3 @@ $(window).load(function() {
 	$(target).animate({left:0},400).addClass("z-1");
 	*/
 }
-	});
-});
-
-
