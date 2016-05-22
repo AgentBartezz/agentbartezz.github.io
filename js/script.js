@@ -1,49 +1,69 @@
 $(window).load(function() {
 	$(".over-loader").delay(300).fadeOut(100);
-	
+	$(".jumper").first().attr("disabled", "disabled");
 	$(".jumper").click(function(){
-		$(".slider-item").fadeOut(400);
-		$(".jumper").removeClass("jumper-active").removeAttr("disabled");
 		var a = $(this).attr("data-slider");
-		slider(a);
-	});
-	var count = $(".slider-inner").children().length;
-	$(".right-arrow").click(function(count) {
-		var a = $(this).attr("data-slider")	;
+		var count = 4;
+		var b = count - 1;
 		slider(a);
 		if(a == count) {
-			$(this).attr("data-slider", "1");
-			$(".left-arrow").attr("data-slider", --count);
-		} if(a == "1") {
-			$(this).attr("data-slider", "2");
+			$(".right-arrow").attr("data-slider", 1);
+			$(".left-arrow").attr("data-slider", b);
+		} else if(a == 1) {
+			$(".right-arrow").attr("data-slider", ++a);
 			$(".left-arrow").attr("data-slider", count);
 		} else {
-			$(this).attr("data-slider", ++a);
+			$(".right-arrow").attr("data-slider", ++a);
+			a = a - 1;
 			$(".left-arrow").attr("data-slider", --a);
 		}
 	});
 	
-	$(".left-arrow").click(function(count) {
-		var a = $(this).attr("data-slider")	;
+	$(".right-arrow").click(function() {
+		var count = 4;
+		var a = $(this).attr("data-slider");
+		slider(a);
+		var b = count - 1;
+		if(a == count) {
+			$(this).attr("data-slider", 1);
+			$(".left-arrow").attr("data-slider", b);
+		} else if(a == 1) {
+			$(this).attr("data-slider", ++a);
+			$(".left-arrow").attr("data-slider", count);
+		} else {
+			$(this).attr("data-slider", ++a);
+			a = a - 1;
+			$(".left-arrow").attr("data-slider", --a);
+		}
+	});
+	
+	$(".left-arrow").click(function() {
+		var count = 4;
+		var a = $(this).attr("data-slider");
+		var b = count - 1;
 		slider(a);
 		if(a == count) {
-			$(this).attr("data-slider", --count);
-			$(".right-arrow").attr("data-slider", "1");
-		} if(a == "1") {
+			$(this).attr("data-slider", b);
+			$(".right-arrow").attr("data-slider", 1);
+		} else if(a == 1) {
 			$(this).attr("data-slider", count);
 			$(".right-arrow").attr("data-slider", ++a);
 		} else {
 			$(this).attr("data-slider", --a);
+			a = a + 1;
 			$(".right-arrow").attr("data-slider", ++a);
 		}
+		
 	});
 });
 
 function slider(a) {
+	$(".slider-item").fadeOut(400);
+	$(".jumper").removeClass("jumper-active").removeAttr("disabled");
 	var target = "#slider-item-" + a;
 	$(target).fadeIn(400);
 	var b = a - 1;
-	//$(".jumper").eq(b).addClass("jumper-active").attr("disabled", "disabled");
+	$(".jumper").eq(b).addClass("jumper-active").attr("disabled", "disabled");
 	/*var left = "#slider-item-" + d;
 	var right = "#slider-item-" + b;
 	var under = "#slider-item-" + c;
