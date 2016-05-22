@@ -4,20 +4,8 @@ $(window).load(function() {
 	$(".jumper").click(function(){
 		$(".slider-item").fadeOut(400);
 		$(".jumper").removeClass("jumper-active").removeAttr("disabled");
-		var slide = $(this).attr("data-slider")	;
-		
-		if(slide == 1) {
-			slider(1);
-		}
-		if(slide == 2) {
-			slider(2);
-		}
-		if(slide == 3) {
-			slider(3);
-		}
-		if(slide == 4) {
-			slider(4);
-		}
+		var a = $(this).attr("data-slider");
+		slider(a);
 	});
 });
 
