@@ -5,7 +5,19 @@ $(window).load(function() {
 		$(".slider-item").fadeOut(400);
 		$(".jumper").removeClass("jumper-active").removeAttr("disabled");
 		var slide = $(this).attr("data-slider")	;
-		slider(slide);
+		if (slide == 1) {
+			slider(1);
+		}
+		if (slide == 2) {
+			slider(2);
+		}
+		if (slide == 3) {
+			slider(3);
+		}
+		if (slide == 4) {
+			slider(4);
+		}
+		
 	});
 	var count = $(".slider-inner").children().length;
 	$(".right-arrow").click(function(count) {
@@ -39,7 +51,7 @@ $(window).load(function() {
 	});
 });
 
-function slider(slide) {
+function slider(a) {
 	var target = "#slider-item-" + slide;
 	$(target).fadeIn(400);
 	var b = slide - 1;
