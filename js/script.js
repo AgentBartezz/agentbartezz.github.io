@@ -33,7 +33,7 @@ $(window).load(function() {
 			$(this).attr("data-slider", count);
 			$(".right-arrow").attr("data-slider", ++slide);
 		} else {
-			$(this).attr("data-slider", slide - 1);
+			$(this).attr("data-slider", --slide);
 			$(".right-arrow").attr("data-slider", ++slide);
 		}
 	});
