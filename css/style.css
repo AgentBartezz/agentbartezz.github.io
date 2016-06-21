@@ -2115,6 +2115,39 @@ input:focus {
 	height:200px;
 }
 
+.footer-shortcuts {
+	float:left;
+	height:100%;
+	width:400px;
+}
+
+.footer-shortcuts-header {
+	height:40px;
+	width:100%;
+	clear:both;
+}
+
+.footer-shortcuts-title {
+	font-weight:normal;
+	font-size:18px;
+}
+
+.footer-shortcuts-content {
+	height:200px;
+	width:500px;
+}
+
+.footer-shortcuts-column {
+	height:100%;
+	width:50%;
+	float:left;
+}
+
+.footer-shortcut-link {
+	text-decoration:none;
+	color:#5f5f5f;
+}
+
 .access-container {
 	width:1200px;
 	position:relative;
