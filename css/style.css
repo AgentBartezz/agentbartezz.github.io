@@ -2197,22 +2197,24 @@ input:focus {
 	position:relative;
 }
 
-.mail-maling {
+.mail-mailing {
 	background:#fff;
 	font-family:LatoBlack;
 	font-size:16px;
 	padding:5px;
-	height:50px;
+	height:45px;
+	margin-top:5px;
 	width:200px;
 	color:#111;
 	border:0;
 }
 
-.mail-maling {
+.mail-submit {
 	background:#22f;
 	font-family:LatoBold;
 	font-size:16px;
-	height:50px;
+	height:45px;
+	margin-top:5px;
 	width:100px;
 	color:#fff;
 	border:0;
