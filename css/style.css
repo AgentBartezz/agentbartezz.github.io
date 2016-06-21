@@ -2223,6 +2223,28 @@ input:focus {
 	text-transform:uppercase;
 }
 
+.footer-company {
+	float:right;
+	width:300px;
+	height:150px;
+}
+
+.footer-company-name {
+	font-family:LatoBold;
+	font-size:18px;
+	text-align:right;
+	width:100%;
+	height:22px;
+}
+
+.footer-company-detail {
+	font-family:Lato;
+	font-size:18px;
+	text-align:right;
+	width:100%;
+	height:22px;
+}
+
 .access-container {
 	width:1200px;
 	position:relative;
