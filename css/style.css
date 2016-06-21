@@ -2148,6 +2148,12 @@ input:focus {
 	color:#5f5f5f;
 }
 
+.footer-mailing-list {
+	width:300px;
+	height:100%;
+	float:left;
+}
+
 .access-container {
 	width:1200px;
 	position:relative;
