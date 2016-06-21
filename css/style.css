@@ -2227,20 +2227,22 @@ input:focus {
 	float:right;
 	width:300px;
 	height:150px;
+	padding-top:20px;
 }
 
 .footer-company-name {
 	font-family:LatoBold;
-	font-size:18px;
+	font-size:17px;
 	text-align:right;
 	width:100%;
 	color:#fff;
+	margin-bottom:5px;
 	height:22px;
 }
 
 .footer-company-detail {
 	font-family:Lato;
-	font-size:18px;
+	font-size:16px;
 	text-align:right;
 	width:100%;
 	color:#fff;
