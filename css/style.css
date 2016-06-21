@@ -2199,14 +2199,15 @@ input:focus {
 
 .mail-maling {
 	background:#fff;
-	font-family:LatoBlack;
+	font-family:Lato;
 	font-size:16px;
 	padding:5px;
 	height:45px;
 	margin-top:5px;
-	width:200px;
+	width:242px;
 	color:#111;
 	border:0;
+	float:left;
 }
 
 .submit-maling {
@@ -2215,9 +2216,11 @@ input:focus {
 	font-size:16px;
 	height:45px;
 	margin-top:5px;
-	width:100px;
+	width:110px;
 	color:#fff;
 	border:0;
+	float:left;
+	text-transform:uppercase;
 }
 
 .access-container {
