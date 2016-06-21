@@ -2126,7 +2126,7 @@ input:focus {
 	width:500px;
 }
 
-.footer-shortcuts-header, .footer-mailing-header {
+.footer-shortcuts-header, .footer-maling-header {
 	height:50px;
 	width:100%;
 	clear:both;
@@ -2170,8 +2170,16 @@ input:focus {
 	float:left;
 }
 
+.mail-list-content {
+	height:150px;
+	width:300px;
+	padding-top:10px;
+}
+
 .span-1 {
 	color:#cfcfcf;
+	font-family:Lato;
+	font-size:16px;
 }
 
 .access-container {
