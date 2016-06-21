@@ -2118,11 +2118,13 @@ input:focus {
 .footer-inner {
 	width:1200px;
 	height:200px;
+	position:relative;
 }
 
 .footer-shortcuts {
 	float:left;
 	height:100%;
+	position:relative;
 	width:500px;
 }
 
@@ -2137,11 +2139,13 @@ input:focus {
 	font-weight:normal;
 	font-size:18px;
 	color:#fff;
+	position:relative;
 }
 
 .footer-shortcuts-content {
 	height:150px;
 	width:500px;
+	position:relative;
 	padding-top:10px;
 }
 
@@ -2149,6 +2153,7 @@ input:focus {
 	height:100%;
 	width:50%;
 	float:left;
+	position:relative;
 }
 
 .footer-shortcut-link {
@@ -2158,6 +2163,7 @@ input:focus {
 	width:100%;
 	height:22px;
 	font-family:Lato;
+	position:relative;
 }
 
 .footer-shortcut-link:hover {
@@ -2168,18 +2174,48 @@ input:focus {
 	width:300px;
 	height:100%;
 	float:left;
+	position:relative;
 }
 
 .mail-list-content {
 	height:150px;
-	width:300px;
+	width:360px;
 	padding-top:10px;
+	position:relative;
 }
 
 .span-1 {
 	color:#cfcfcf;
 	font-family:Lato;
 	font-size:16px;
+}
+
+.mailing-form {
+	height:50px;
+	width:100%;
+	float:left;
+	position:relative;
+}
+
+.mail-maling {
+	background:#fff;
+	font-family:LatoBlack;
+	font-size:16px;
+	padding:5px;
+	height:50px;
+	width:200px;
+	color:#111;
+	border:0;
+}
+
+.mail-maling {
+	background:#22f;
+	font-family:LatoBold;
+	font-size:16px;
+	height:50px;
+	width:100px;
+	color:#fff;
+	border:0;
 }
 
 .access-container {
