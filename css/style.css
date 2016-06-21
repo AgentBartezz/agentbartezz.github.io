@@ -2123,24 +2123,26 @@ input:focus {
 .footer-shortcuts {
 	float:left;
 	height:100%;
-	width:400px;
+	width:500px;
 }
 
-.footer-shortcuts-header {
-	height:40px;
+.footer-shortcuts-header, .footer-mailing-header {
+	height:50px;
 	width:100%;
 	clear:both;
+	padding-top:20px;
 }
 
-.footer-shortcuts-title {
+.footer-shortcuts-title, .footer-mailing-title {
 	font-weight:normal;
 	font-size:18px;
 	color:#fff;
 }
 
 .footer-shortcuts-content {
-	height:160px;
+	height:150px;
 	width:500px;
+	padding-top:10px;
 }
 
 .footer-shortcuts-column {
@@ -2166,6 +2168,10 @@ input:focus {
 	width:300px;
 	height:100%;
 	float:left;
+}
+
+.span-1 {
+	color:#cfcfcf;
 }
 
 .access-container {
