@@ -2197,7 +2197,7 @@ input:focus {
 	position:relative;
 }
 
-.mail-mailing {
+.mail-maling {
 	background:#fff;
 	font-family:LatoBlack;
 	font-size:16px;
@@ -2209,8 +2209,8 @@ input:focus {
 	border:0;
 }
 
-.mail-submit {
-	background:#22f;
+.submit-maling {
+	background:#66f;
 	font-family:LatoBold;
 	font-size:16px;
 	height:45px;
