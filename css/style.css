@@ -2144,7 +2144,8 @@ input:focus {
 
 .footer-shortcuts-content {
 	height:150px;
-	width:500px;
+	width:400px;
+	margin:0;
 	position:relative;
 	padding-top:10px;
 }
