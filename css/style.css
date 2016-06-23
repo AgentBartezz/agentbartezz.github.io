@@ -2126,7 +2126,7 @@ input:focus {
 	float:left;
 	height:100%;
 	position:relative;
-	width:500px;
+	width:450px;
 }
 
 .footer-shortcuts-header, .footer-maling-header {
@@ -2173,7 +2173,7 @@ input:focus {
 }
 
 .footer-mailing-list {
-	width:300px;
+	width:360px;
 	height:100%;
 	float:left;
 	position:relative;
