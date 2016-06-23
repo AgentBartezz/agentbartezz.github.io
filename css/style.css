@@ -356,7 +356,7 @@ input:focus {
 	font-family:Gil-Condensed;
 	font-size:20px;
 	float:right;
-	background:#dd0000;
+	background:#263238;
 	text-align:left;
 	cursor:pointer;
 	transition:all .3s;
@@ -2253,7 +2253,7 @@ input:focus {
 }
 
 .under-footer {
-	background:#222;
+	background:#333;
 	height:50px;
 	width:100%;
 }
