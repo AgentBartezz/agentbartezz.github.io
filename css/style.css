@@ -2252,6 +2252,12 @@ input:focus {
     	height: 22px;
 }
 
+.under-footer {
+	background:#222;
+	height:50px;
+	width:100%;
+}
+
 .access-container {
 	width:1200px;
 	position:relative;
